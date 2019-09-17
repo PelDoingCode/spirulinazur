@@ -1,9 +1,9 @@
 # Site settings
-title: Jekyll Basics
-email: info@wiredcraft.com
-description: "A boilerplate set up to create a bilingual Jekyll website."
+title: Spirulinazur
+email: pelegrijulien@hotmail.fr
+description: "A website to present Spirulinazur amazing products ! "
 keywords:
-- Jekyll
+- Spirulinazur
 
 # URL
 url: "https://wiredcraft.github.io/jekyll-basics"
@@ -24,6 +24,12 @@ social:
   - https://www.linkedin.com/company/wiredcraft
   - https://github.com/wiredcraft
   - https://weibo.com/1970385015/
+
+
+# generate social links in footer
+social_links:
+  facebook: spirulinazur
+  instagram: spirulinazur
 
 # Sitemap (see sitemap.xml)
 sitemap:
@@ -56,7 +62,6 @@ plugins:
 lang:
   - en
   - fr
-  - zh
 
 # Version (helps with force reloading assets)
 version: sparkle

@@ -1,6 +1,11 @@
 ---
-layout: front
-title: Hello!
-description: "Jekyll Basics is a simple boilerplate Jekyll site with multilingual (and Jekyll+ CMS) support."
-lang: en
+title: Spirulinazur
+layout: default
 ---
+
+
+<h3> Spiruline, la superfood pour booster votre <br> énergie toute la journée. </h3>
+
+<h4>  Laissez nous prendre soin de vous. </h4>
+
+

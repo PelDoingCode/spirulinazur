@@ -6,7 +6,7 @@ keywords:
 - Spirulinazur
 
 # URL
-url: "https://wiredcraft.github.io/jekyll-basics"
+url: ""
 baseurl: ""
 
 # Google tracking (Analytics and Google Tag Manager)
@@ -27,7 +27,7 @@ social:
 
 
 # generate social links in footer
-social_links:
+footer_links:
   facebook: spirulinazur
   instagram: spirulinazur
 

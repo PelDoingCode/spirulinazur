@@ -33,9 +33,9 @@
       .options {
         padding: $space/6 0;
         .option {
-          background: rgba($light, 0);
-          display: block;
-          color: inherit;
+          // background: rgba($light, 0);
+          // display: block;
+          // color: inherit;
           cursor: pointer;
           @include font-size($smaller);
           line-height: 160%;
@@ -44,13 +44,13 @@
           transition-property: background;
           transition-duration: $ease;
           white-space: nowrap;
-          &:hover {
-            background: $light;
-            text-decoration: none;
-          }
-          &.danger:hover {
-            color: $red;
-          }
+          // &:hover {
+          //   background: $light;
+          //   text-decoration: none;
+          // }
+          // &.danger:hover {
+          //   color: $red;
+          // }
           a,
           a:hover {
             color: inherit;

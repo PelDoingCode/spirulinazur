@@ -1,10 +1,13 @@
-<nav class="menu">
+<nav class="menu" style="display: flex; justify-content: space-between; align-items: center;
+">
   <section class="links">
-    <strong class="">{{ site.title }}</strong>
-    {% for item in site.data.menu %}
+
+    <a href="www.google.com">  <img src="assets/logo.svg" style="width:50%; height:50%"  alt="logo of spirulinazur"></a>
+
+<!--     {% for item in site.data.menu %}
       {% if item.url %}<a href="{{ item.url }}">{{ t[lang].menu[item.id] }}</a>
       {% else %}<a href="{{ site.url }}{{ site.baseurl }}{{ t_url_prefix }}{{ item.path }}">{{ t[lang].menu[item.id] }}</a>{% endif %}
-    {% endfor %}
+    {% endfor %} -->
   </section>
   <section class="languages">
     {% include lang.html %}

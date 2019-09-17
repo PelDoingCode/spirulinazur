@@ -3,13 +3,20 @@
 <ul class="social-media-list">
   <!-- link for this info : https://github.com/jekyll/minima/blob/master/_includes/social.html -->
 
-  {%- if social.facebook -%}<li><a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}" title="{{ social.facebook | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg></a></li>{%- endif -%}
+  {%- if social.facebook -%}<li><a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}" title="{{ social.facebook | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/facebook-icons.svg' | relative_url }}"></use></svg></a></li>{%- endif -%}
 
-  {%- if social.instagram -%}<li><a href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}" title="{{ social.instagram | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a></li>{%- endif -%}
+  {%- if social.instagram -%}<li><a href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}" title="{{ social.instagram | escape }}"><svg class="svg-icon grey"><use xlink:href="{{ '/assets/instagram-icons.svg' | relative_url }}"></use></svg></a></li>{%- endif -%}
 
 
+<!--
       <div class="footer-col one-half">
         <p>{{- site.description | escape -}}</p>
-      </div>
+      </div> -->
 
 </ul>
+
+
+<!-- <footer class="footer">
+  {% if site.footer-links.facebook %}<a href="http://facebook.com/{{ site.footer-links.facebook }}">{% include svg-icons/facebook.html %}</a>{% endif %}
+  {% if site.footer-links.instagram %}<a href="http://instagram.com/{{ site.footer-links.instagram }}">{% include svg-icons/instagram.html %}</a>{% endif %}
+</footer> -->

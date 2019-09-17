@@ -35,3 +35,5 @@ If needed, you can set it up manually at the end of the `_config.yml` file by se
 up the `jekyllplus` variable:
 
     jekyllplus: Wiredcraft/jekyll-basics/master
+
+## need to run this if you want serve to work : gem install jekyll-sitemap

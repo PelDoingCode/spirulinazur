@@ -865,9 +865,6 @@ textarea,
   .dropdown.menu .options {
     padding: 4px 0; }
     .dropdown.menu .options .option {
-      background: rgba(247, 249, 250, 0);
-      display: block;
-      color: inherit;
       cursor: pointer;
       font-size: 14px;
       font-size: 1.4rem;
@@ -877,11 +874,6 @@ textarea,
       transition-property: background;
       transition-duration: 0.2s;
       white-space: nowrap; }
-      .dropdown.menu .options .option:hover {
-        background: #f7f9fa;
-        text-decoration: none; }
-      .dropdown.menu .options .option.danger:hover {
-        color: #CC3333; }
       .dropdown.menu .options .option a,
       .dropdown.menu .options .option a:hover {
         color: inherit;

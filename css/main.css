@@ -1,5 +1,5 @@
 
-body {
+body  {
   position: relative;
   background-color: #29AAA7;
   font-family: Lato;
@@ -66,6 +66,11 @@ body {
 }
 
 /*code for the form */
+
+.discount-text{
+  padding-bottom: 20%;
+
+}
 
 .form-input {
   margin-top: -2%;

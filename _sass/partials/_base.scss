@@ -33,18 +33,7 @@
     }
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $black;
-    font-family: $headline;
-    font-weight: 500;
-    line-height: 160%;
-    margin: 0 0 $space;
-  }
+
 
   h1 {
     @include font-size($headline-1);
@@ -54,12 +43,7 @@
     @include font-size($headline-2);
   }
 
-  h3,
-  h4,
-  h5,
-  h6 {
-    @include font-size($headline-3);
-  }
+
 
   strong,
   b {

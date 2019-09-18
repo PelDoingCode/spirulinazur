@@ -34,28 +34,26 @@
 <body class="lang-{{ lang }}{% if page.collection %} type-{{ page.collection }}{% else %}{% if depth > 0 %} page-{{ path | join: '-' }}{% else %} page-front{% endif %}{% endif %}{% if page.class %} {{ page.class }}{% endif %}">
   {% if site.google_tag_manager %}{% include google/tag-manager-noscript.html %}{% endif %}
 
-  <header id="header">
-    <div class="container">
-      {% include header.html %}
-    </div>
-  </header>
+  <div class="container-wrapper">
 
-  <section id="content">
-    <div class="text-container">
-      {{ content }}
-    </div>
+    <header id="header">
+      <div class="banner">
+        {% include header.html %}
+      </div>
+    </header>
 
-    <div class="form">
-      {% include form.html %}
-    </div>
+    <section id="content">
+      <div class="text-container">
+        {{ content }}
+      </div>
 
-  </section>
+      <div class="form">
+        {% include form.html %}
+      </div>
 
-  <footer id="footer">
-    <div class="footer-container">
-      {% include footer.html %}
-    </div>
-  </footer>
+    </section>
+
+  </div>
 
 
 

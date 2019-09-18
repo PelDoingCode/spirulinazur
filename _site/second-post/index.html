@@ -70,12 +70,12 @@
   <link rel="alternate" type="application/rss+xml" title="Spirulinazur" href="http://localhost:4000/feed.xml" />
 
   <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/favicons/logo.png">
-<link rel="icon" type="image/png" href="http://localhost:4000/assets/favicons/logo.png" sizes="32x32">
-<link rel="icon" type="image/png" href="http://localhost:4000/assets/favicons/logo.png" sizes="16x16">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/favicons/logo_figma.png">
+<link rel="icon" type="image/png" href="http://localhost:4000/assets/favicons/logo_figma.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://localhost:4000/assets/favicons/logo_figma.png" sizes="16x16">
 <link rel="manifest" href="http://localhost:4000/assets/favicons/manifest.json">
-<link rel="mask-icon" href="http://localhost:4000/assets/favicons/logo.png" color="#ef233c">
-<link rel="shortcut icon" href="http://localhost:4000/assets/favicons/logo.png">
+<link rel="mask-icon" href="http://localhost:4000/assets/favicons/logo_figma.png" color="#ef233c">
+<link rel="shortcut icon" href="http://localhost:4000/assets/favicons/logo_figma.png">
 <meta name="msapplication-config" content="http://localhost:4000/assets/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
 
@@ -84,7 +84,7 @@
   <link rel="stylesheet" href="http://localhost:4000/assets/styles.css?version-sparkle">
 
   <!-- try to overwrite the sass css -->
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="css/main.css">
 
 
 </head>
@@ -92,24 +92,21 @@
 <body class="lang-en type-posts post">
   
 
-  <header id="header">
-    <div class="container">
-      <nav class="menu" style="display: flex; justify-content: space-between; align-items: center;
-">
+  <div class="container-wrapper">
+
+    <header id="header">
+      <div class="banner">
+        <nav class="menu">
   <section class="banner-links">
 
 <!--     <a href="https://www.spirulinazur.fr/">  <img src="assets/logo.svg" style="width:50%; height:50%"  alt="logo of spirulinazur"></a> -->
 
-    <img src="assets/logo.svg" style="width:50%; height:50%"  alt="logo of spirulinazur">
-<!--     
-      <a href="http://localhost:4000/">Home</a>
-    
-      <a href="https://github.com/Wiredcraft/jekyll-basics">See on GitHub</a>
-      
-     -->
+    <img src="assets/logo.svg" style="width:20%; height:20%; margin-left:15%;"  alt="logo of spirulinazur">
+
   </section>
   <section class="languages">
-    
+    <div class="language-header">
+      
   
 
   
@@ -120,15 +117,16 @@
   
 
 
+    </div>
   </section>
 </nav>
 
-    </div>
-  </header>
+      </div>
+    </header>
 
-  <section id="content">
-    <div class="text-container">
-      <div class="cover" style="background-image: url('http://localhost:4000/files/images/china-shanghai.jpg');"></div>
+    <section id="content">
+      <div class="text-container">
+        <div class="cover" style="background-image: url('http://localhost:4000/files/images/china-shanghai.jpg');"></div>
 
 <small class="meta">
   <time datetime="2017-04-23 00:00:00 +0800">23/04/2017</time>
@@ -153,50 +151,24 @@
 <p>Vim et habeo primis theophrastus. Ex qui erant forensibus sententiae, in vix adipisci efficiendi. Soluta appetere fabellas an vel. Ad illud audiam erroribus nec.</p>
 
 
-    </div>
+      </div>
 
-    <div class="form">
-      
+      <div class="form">
+        
 <form accept-charset="UTF-8" action="" method="POST">
 
-    <input type="email" name="email" placeholder="lapiraterie@hotmail.com" class="form-input">
+    <input type="email" name="email" placeholder="your_email@hotmail.com" class="form-input">
     <input type="hidden" name="utf8" value="✓">
 
 
-    <button type="submit" class="form-button"> <h4> SUBSCRIBE </h4></button>
+    <button type="submit" class="form-button"> <h4 style='justify-content: center;'> SUBSCRIBE </h4></button>
 </form>
 
-    </div>
+      </div>
 
-  </section>
+    </section>
 
-  <footer id="footer">
-    <div class="footer-container">
-      
-<div class="container-footer">
-
-  <small>Come check our website <a href="https://www.spirulinazur.fr/"> <strong> Spirulinazur </strong> </a></small>
-
-  <div class="social-links"><ul class="social-media-list">
-  <!-- link for this info : https://github.com/jekyll/minima/blob/master/_includes/social.html --><!--
-      <div class="footer-col one-half">
-        <p>A website to present Spirulinazur amazing products ! </p>
-      </div> -->
-
-</ul>
-
-
-<!-- <footer class="footer">
-  
-  
-</footer> -->
-</div>
-
-</div>
-
-
-    </div>
-  </footer>
+  </div>
 
 
 

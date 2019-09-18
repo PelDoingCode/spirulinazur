@@ -3,9 +3,12 @@ title: Spirulinazur
 layout: default
 ---
 
+<div class="text-color">
 
-<h3> Spiruline, la superfood pour booster votre <br> énergie toute la journée. </h3>
+  <h3> Spirulina the superfood that will drive your <br> presonal health journey. </h3>
 
-<h4>  Laissez nous prendre soin de vous. </h4>
+  <h4>  Let us take care of you. </h4>
+
+</div>
 
 

@@ -65,6 +65,13 @@ body  {
   color: #060F39;
 }
 
+#discount-text {
+  font-size: 120%;
+  color: #060F39;
+  margin-top: 9%;
+  padding-left: 4%;
+  width: 100%;
+}
 /*code for the form */
 
 .discount-text{

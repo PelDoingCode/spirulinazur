@@ -24,6 +24,11 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/styles.css?version-{{ site.version }}">
+
+  <!-- try to overwrite the sass css -->
+  <link rel="stylesheet" href="css/main.css">
+
+
 </head>
 
 <body class="lang-{{ lang }}{% if page.collection %} type-{{ page.collection }}{% else %}{% if depth > 0 %} page-{{ path | join: '-' }}{% else %} page-front{% endif %}{% endif %}{% if page.class %} {{ page.class }}{% endif %}">
@@ -41,15 +46,13 @@
     </div>
 
     <div class="form">
-
       {% include form.html %}
-
     </div>
 
   </section>
 
   <footer id="footer">
-    <div class="container">
+    <div class="footer-container">
       {% include footer.html %}
     </div>
   </footer>

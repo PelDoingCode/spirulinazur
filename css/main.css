@@ -1,0 +1,25 @@
+
+body {
+  background-color: #29AAA7;
+}
+
+
+
+// -----------------
+// code for header
+
+#header {
+  background: #29AAA7;
+  color: black;
+  font-weight: blod;
+  margin-bottom: 2*$space;
+  text-align: right;
+
+}
+
+.banner-links {
+  margin-top: 3%;
+}
+
+//--------------
+// code for footer

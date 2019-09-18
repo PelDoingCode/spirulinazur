@@ -1,29 +1,10 @@
-Jekyll Basics is a simple boilerplate for Jekyll websites with a few (opinionated)
-best practices in mind:
+Project to change the business model of a friend company and also using adding a new UX using Jekyll to generate more lead !
+
+Multilingual landing page (english and french).
 
 - Multilingual support,
 - Proper config with ,
 - SASS styling with [egg](https://wiredcraft.github.io/egg/) (a SASS micro-framework),
-
-## Install & Run
-
-1. Make sure you have Ruby 2.1.0 or higher installed:
-
-        ruby --version
-
-2. Install the `github-pages` gem;
-
-        gem install github-pages
-
-*If that doesn't work for you, try the [GitHub help](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).*
-
-3. Run the site:
-
-        make serve
-
-    Then go to http://localhost:4000. This will overload the Jekyll configuration (`_config.yml`) with the dev settings (`_config-dev.yml`) and make sure it uses the increment build option.
-
-    *For more details, see the `Makefile`.*
 
 ## CMS
 
@@ -37,3 +18,4 @@ up the `jekyllplus` variable:
     jekyllplus: Wiredcraft/jekyll-basics/master
 
 ## need to run this if you want serve to work : gem install jekyll-sitemap
+

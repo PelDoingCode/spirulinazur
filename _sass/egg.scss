@@ -1,16 +1,16 @@
-/*** VENDORS (by default just normalize.css) ***/
+// /*** VENDORS (by default just normalize.css) ***/
 
-@import './vendors/_normalize.scss';
+// @import './vendors/_normalize.scss';
 
-/*** VARIABLES (colors, layout, spacing & typography) ***/
+// /*** VARIABLES (colors, layout, spacing & typography) ***/
 
-@import '_variables';
+// @import '_variables';
 
-/*** MIXINS & PARTIALS ***/
+// /*** MIXINS & PARTIALS ***/
 
-@import 'utils/_all';
-@import 'partials/_all';
+// @import 'utils/_all';
+// @import 'partials/_all';
 
-/*** CUSTOM ***/
+// /*** CUSTOM ***/
 
-@import 'custom/_all';
+// @import 'custom/_all';

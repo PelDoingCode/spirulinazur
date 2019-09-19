@@ -30,6 +30,7 @@ body  {
 }
 
 
+
 .banner-links {
   margin-top: 3%;
 }
@@ -81,6 +82,14 @@ body  {
 }
 
 /*code for the form */
+
+
+
+input[placeholder] {
+  color: #29AAA7;
+  font-size: 150%;
+  text-align: center;
+}
 
 
 .form-input {

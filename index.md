@@ -13,7 +13,7 @@ layout: default
 
 <div class="random" style='display: flex;   flex-direction: row;
 '>
-  <h6 id="discount-text"> <strong> 20% DISCOUNT </strong> <em style='color: white;'>  AT LAUNCH FOR EARLY SUBSCRIBERS </em>   </h6>
+  <h6 id="discount-text"> <strong> 20% DISCOUNT </strong> <em style='color: white;'>   at launch for early subscribers </em>   </h6>
 </div>
 
 

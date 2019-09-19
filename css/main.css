@@ -1,3 +1,11 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: Lato;
+  font-style: normal;
+
+}
+
 
 body  {
   position: relative;
@@ -76,7 +84,10 @@ body  {
 
 .discount-text{
   padding-bottom: 20%;
+}
 
+.discount-text-francais {
+  padding-bottom: 35%;
 }
 
 .form-input {

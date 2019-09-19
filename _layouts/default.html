@@ -26,7 +26,7 @@
   <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/styles.css?version-{{ site.version }}">
 
   <!-- try to overwrite the sass css -->
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/main.css">
 
 
 </head>
@@ -55,20 +55,13 @@
 
 
       </section>
-        <div class="form">
-          {% if lang == 'en' %}
-            {% include form.html %}
-          {% endif %}
-        </div>
+      <div class="form">
+          {% include form.html %}
+      </div>
 
-        <div class="form">
-          {% if lang == 'fr' %}
-            {% include form_french.html %}
-          {% endif %}
-
-        </div>
 
       <footer>
+
         <div class="footer-container">
           {% include footer.html %}
         </div>
@@ -96,7 +89,7 @@
 
       <header id="header">
         <div class="banner">
-          {% include header.html %}
+          {% include header_fr.html %}
         </div>
       </header>
 
@@ -110,18 +103,11 @@
 
       </section>
 
-        <div class="form">
-          {% if lang == 'en' %}
-            {% include form.html %}
-          {% endif %}
-        </div>
 
-        <div class="form">
-          {% if lang == 'fr' %}
-            {% include form_french.html %}
-          {% endif %}
 
-        </div>
+      <div class="form">
+        {% include form_french.html %}
+      </div>
 
     </div>
 

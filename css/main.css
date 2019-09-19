@@ -3,7 +3,6 @@ html {
   margin: 0;
   font-family: Lato;
   font-style: normal;
-
 }
 
 
@@ -44,7 +43,7 @@ body  {
 .language-header  a {
   color: white;
   text-decoration: none;
-  }
+}
 
 /*//--------------
 // code for footer
@@ -73,37 +72,31 @@ body  {
   color: #060F39;
 }
 
-#discount-text {
+.discount-text {
   font-size: 120%;
   color: #060F39;
   margin-top: 9%;
   padding-left: 4%;
   width: 100%;
 }
+
 /*code for the form */
 
-.discount-text{
-  padding-bottom: 20%;
-}
-
-.discount-text-francais {
-  padding-bottom: 35%;
-}
 
 .form-input {
   margin-top: -2%;
   position: absolute;
-  width: 441px;
-  height: 55.24px;
+  width: 40%;
+  height: 65%;
   left: 15%;
-  top: 450px;
+  top: 600%;
 
   /* Colors/White */
 
   background: #FCFCFC;
   /* Colors/LightGrey */
 
-  border: 1px solid #F4F4ED;
+  border: 1.5px solid #060F39;
   box-sizing: border-box;
   border-radius: 8px;
 
@@ -112,19 +105,19 @@ body  {
 .form-button {
   margin-top: -2%;
   position: absolute;
-  width: 144px;
-  height: 54px;
-  left: 626px;
-  top: 452px;
+  width: 13%;
+  height: 65%;
+  left: 57%;
+  top: 600%;
 
   background: #060F39;
   border-radius: 15px;
 }
 
+
+
 .form-button h4 {
   color: white;
-  font-family: Mplus 1p;
-  font-style: normal;
   font-weight: 500;
   font-size: 13.5px;
   line-height: 20px;

@@ -89,7 +89,6 @@ body  {
 /*code for the form */
 
 
-
 input[placeholder] {
   color: #29AAA7;
   font-size: 150%;
@@ -100,11 +99,9 @@ input[placeholder] {
 
 .form-input {
   margin-top: -2%;
-  position: absolute;
   width: 40%;
-  height: 65%;
+  height: 30%;
   left: 15%;
-  top: 600%;
 
   /* Colors/White */
 
@@ -119,11 +116,9 @@ input[placeholder] {
 
 .form-button {
   margin-top: -2%;
-  position: absolute;
-  width: 13%;
-  height: 65%;
+  width: 20%;
+  height: 20%;
   left: 57%;
-  top: 600%;
 
   background: #060F39;
   border-radius: 15px;
@@ -140,6 +135,12 @@ input[placeholder] {
   align-items: center;
   text-align: center;
   letter-spacing: 2px;
+}
+
+.form-chance {
+  display: flex;
+  justify-content: center;
+
 }
 
 

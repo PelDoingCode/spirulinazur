@@ -44,20 +44,17 @@
       </header>
 
       <section id="content">
+
         <div class="text-container">
           {{ content }}
+          {% include form.html %}
         </div>
 
       </section>
 
-      <section id="form-mail">
-        <div class="form">
-            {% include form.html %}
-        </div>
-      </section>
+
 
       <footer>
-
         <div class="footer-container">
           {% include footer.html %}
         </div>
@@ -93,18 +90,9 @@
       <section id="content">
         <div class="text-container">
           {{ content }}
+          {% include form_french.html %}
         </div>
-
-
-
-
       </section>
-
-
-
-      <div class="form">
-        {% include form_french.html %}
-      </div>
 
     </div>
 

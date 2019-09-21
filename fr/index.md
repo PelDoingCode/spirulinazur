@@ -14,9 +14,13 @@ description: "Jekyll Basics est une install standard pour Jekyll avec support mu
 
 </div>
 
-
+<!---
 <div style='display: flex;   flex-direction: row;'>
 
   <h6 class="discount-text"> <strong> 20% REDUCTION </strong> <em style='color: white;'>   au lancement pour les abonnés à la newsletter ! </em>   </h6>
 
 </div>
+
+-->
+
+

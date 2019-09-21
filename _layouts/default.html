@@ -30,9 +30,7 @@
 
 
 </head>
-
 {% if lang == 'en' %}
-
 
   <body class="lang-{{ lang }}{% if page.collection %} type-{{ page.collection }}{% else %}{% if depth > 0 %} page-{{ path | join: '-' }}{% else %} page-front{% endif %}{% endif %}{% if page.class %} {{ page.class }}{% endif %}">
     {% if site.google_tag_manager %}{% include google/tag-manager-noscript.html %}{% endif %}
@@ -50,15 +48,13 @@
           {{ content }}
         </div>
 
-
-
-
-
       </section>
-      <div class="form">
-          {% include form.html %}
-      </div>
 
+      <section id="form-mail">
+        <div class="form">
+            {% include form.html %}
+        </div>
+      </section>
 
       <footer>
 
@@ -80,6 +76,7 @@
     {% include jekyllplus.html %}
   </body>
 {% endif %}
+
 
 {% if lang == 'fr' %}
   <body class="lang-{{ lang }}{% if page.collection %} type-{{ page.collection }}{% else %}{% if depth > 0 %} page-{{ path | join: '-' }}{% else %} page-front{% endif %}{% endif %}{% if page.class %} {{ page.class }}{% endif %}">
@@ -122,5 +119,6 @@
   </body>
 
 {% endif %}
+
 
 </html>

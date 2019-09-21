@@ -101,6 +101,7 @@ DEPENDENCIES
   bundler (~> 2.0, >= 2.0.2)
   jekyll-airtable_data
   jekyll-feed (~> 0.12)
+  jekyll-sass-converter
   jekyll-sitemap
   minima (~> 2.5)
   tzinfo (~> 1.2)

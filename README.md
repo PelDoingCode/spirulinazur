@@ -19,3 +19,4 @@ up the `jekyllplus` variable:
 
 ## need to run this if you want serve to work : gem install jekyll-sitemap
 
+##### to run the code : bundle exec jekyll serve

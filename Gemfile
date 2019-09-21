@@ -35,3 +35,5 @@ gem 'jekyll-airtable_data'
 # to fix error :
 gem 'jekyll-sitemap'
 
+# gem bundler for netifly
+gem 'bundler', '~> 2.0', '>= 2.0.2'

@@ -98,6 +98,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 2.0, >= 2.0.2)
   jekyll-airtable_data
   jekyll-feed (~> 0.12)
   jekyll-sitemap

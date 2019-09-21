@@ -40,3 +40,4 @@ gem 'bundler', '~> 2.0', '>= 2.0.2'
 
 # to solve sass issues
 gem 'jekyll-sass-converter'
+gem 'sassc'

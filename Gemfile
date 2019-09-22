@@ -36,8 +36,8 @@ gem 'jekyll-airtable_data'
 gem 'jekyll-sitemap'
 
 # gem bundler for netifly
-# gem 'bundler', '~> 2.0', '>= 2.0.1'
+gem 'bundler', '~> 2.0', '>= 2.0.2'
 
 # to solve sass issues
 # gem 'jekyll-sass-converter'
-# gem 'sassc'
+gem 'sassc'
